@@ -1,58 +1,118 @@
 <h1>Active Directory Home Lab</h1>
 
- ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
-
 <h2>Description</h2>
-In this Lab Project consists of a simple PowerShell script that walks the user through "zeroing out" (wiping) any drives that are connected to the system. The utility allows you to select the target disk and choose the number of passes that are performed. The PowerShell script will configure a diskpart script file based on the user's selections and then launch Diskpart to perform the disk sanitization.
-<br />
 
+This lab demonstrates how to deploy a Windows Active Directory environment using Oracle VirtualBox.
+
+The environment includes:
+
+• Windows Server 2019 Domain Controller  
+• Active Directory Domain Services (AD DS)  
+• DNS and DHCP configuration  
+• NAT routing using RRAS  
+• Windows 10 client joined to the domain  
+• PowerShell automation to create 1000+ users  
+
+This simulates a small enterprise network infrastructure.
+
+<br />
 
 <h2>Languages and Utilities Used</h2>
 
-- <b>PowerShell</b> 
-- <b>Diskpart</b>
+- <b>PowerShell</b>
+- <b>Active Directory Domain Services</b>
+- <b>DHCP Server</b>
+- <b>DNS Server</b>
+- <b>Routing and Remote Access (RRAS)</b>
+- <b>Oracle VirtualBox</b>
 
-<h2>Environments Used </h2>
+<br />
 
-- <b>Windows 10</b> (21H2)
+<h2>Environments Used</h2>
 
-<h2>Program walk-through:</h2>
+- <b>Windows Server 2019</b>
+- <b>Windows 10</b>
+- <b>Oracle VirtualBox</b>
+
+<br />
+
+<h2>Network Architecture</h2>
 
 <p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="screenshots/network-diagram.png" width="80%">
 </p>
 
-<!--
- ```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
-```
---!>
+<br />
+
+<h2>Program Walk-through:</h2>
+
+<p align="center">
+
+Create Domain Controller Virtual Machine<br/>
+<img src="screenshots/vm-settings.png" width="80%"/>
+<br /><br />
+
+Install Windows Server 2019<br/>
+<img src="screenshots/server-install.png" width="80%"/>
+<br /><br />
+
+Configure Static IP Address<br/>
+<img src="screenshots/static-ip-config.png" width="80%"/>
+<br /><br />
+
+Install Active Directory Domain Services<br/>
+<img src="screenshots/ad-install.png" width="80%"/>
+<br /><br />
+
+Create Active Directory Domain<br/>
+<img src="screenshots/create-domain.png" width="80%"/>
+<br /><br />
+
+Create Domain Admin Account<br/>
+<img src="screenshots/create-admin-user.png" width="80%"/>
+<br /><br />
+
+Configure NAT using Routing and Remote Access<br/>
+<img src="screenshots/nat-config.png" width="80%"/>
+<br /><br />
+
+Configure DHCP Scope for Internal Network<br/>
+<img src="screenshots/dhcp-setup.png" width="80%"/>
+<br /><br />
+
+Run PowerShell Script to Generate Users<br/>
+<img src="screenshots/powershell-users.png" width="80%"/>
+<br /><br />
+
+Create Windows 10 Client Virtual Machine<br/>
+<img src="screenshots/client-vm.png" width="80%"/>
+<br /><br />
+
+Join Windows 10 Client to Domain<br/>
+<img src="screenshots/domain-join.png" width="80%"/>
+<br /><br />
+
+Verify Network Connectivity<br/>
+<img src="screenshots/ping-test.png" width="80%"/>
+<br /><br />
+
+Verify Computer Appears in Active Directory<br/>
+<img src="screenshots/ad-computers.png" width="80%"/>
+<br /><br />
+
+</p>
+
+<h2>Skills Demonstrated</h2>
+
+• Active Directory Deployment  
+• DNS and DHCP Configuration  
+• NAT and Routing  
+• Domain User Management  
+• PowerShell Automation  
+• Virtualized Enterprise Network Setup  
+
+<br />
+
+<h2>Project Outcome</h2>
+
+This lab successfully demonstrates how a corporate Windows domain environment is built and managed. The project simulates real-world enterprise infrastructure where domain users authenticate to centralized services through a Domain Controller.
