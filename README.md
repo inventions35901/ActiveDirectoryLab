@@ -49,28 +49,49 @@ This simulates a small enterprise network infrastructure.
 <p align="center">
 
 Create Domain Controller Virtual Machine<br/>
-<img src="screenshots/vm-settings.png" width="80%"/>
-<br /><br />
+
+<img src="01-create-dc-vm-1.png" width="80%"/>
+<br/>
+<img src="01-create-dc-vm-2.png" width="80%"/>
+
+<br/><br/>
 
 Install Windows Server 2019<br/>
-<img src="screenshots/server-install.png" width="80%"/>
-<br /><br />
+
+<img src="02-install-windows-server-1.png" width="80%"/>
+<br/>
+<img src="02-install-windows-server-2.png" width="80%"/>
+
+<br/><br/>
 
 Configure Static IP Address<br/>
-<img src="screenshots/static-ip-config.png" width="80%"/>
-<br /><br />
+
+<img src="03-configure-static-ip.png" width="80%"/>
+
+<br/><br/>
 
 Install Active Directory Domain Services<br/>
-<img src="screenshots/ad-install.png" width="80%"/>
-<br /><br />
+<img src="04-install-ad-ds-1.png" width="80%"/>
+<br/>
+<img src="04-install-ad-ds-2.png" width="80%"/>
 
-Create Active Directory Domain<br/>
-<img src="screenshots/create-domain.png" width="80%"/>
-<br /><br />
+<br/><br/>
 
-Create Domain Admin Account<br/>
-<img src="screenshots/create-admin-user.png" width="80%"/>
-<br /><br />
+Create Domain<br/>
+<img src="05-create-domain-1.png" width="80%"/>
+<br/>
+<img src="05-create-domain-2.png" width="80%"/>
+
+<br/><br/>
+
+Configure NAT using Routing and Remote Access<br/>
+<img src="06-configure-nat-rras-1.png" width="80%"/>
+<br/>
+<img src="06-configure-nat-rras-2.png" width="80%"/>
+<br/>
+<img src="06-configure-nat-rras-3.png" width="80%"/>
+
+<br/><br/>
 
 Configure NAT using Routing and Remote Access<br/>
 <img src="screenshots/nat-config.png" width="80%"/>
