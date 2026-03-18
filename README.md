@@ -93,8 +93,8 @@ Configure NAT using Routing and Remote Access<br/>
 
 <br/><br/>
 
-Configure NAT using Routing and Remote Access<br/>
-<img src="screenshots/nat-config.png" width="80%"/>
+Configure DHCP Scope for Internal Network<br/>
+<img src="07-configure-dhcp-scope.png" width="80%"/>
 <br /><br />
 
 Configure DHCP Scope for Internal Network<br/>
