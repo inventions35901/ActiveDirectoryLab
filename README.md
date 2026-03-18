@@ -97,9 +97,14 @@ Configure DHCP Scope for Internal Network<br/>
 <img src="07-configure-dhcp-scope.png" width="80%"/>
 <br /><br />
 
-Configure DHCP Scope for Internal Network<br/>
-<img src="screenshots/dhcp-setup.png" width="80%"/>
-<br /><br />
+Create Domain Admin Account<br/>
+<img src="08-create-domain-admin-1.png" width="80%"/>
+<br/>
+<img src="08-create-domain-admin-2.png" width="80%"/>
+<br/>
+<img src="08-create-domain-admin-3.png" width="80%"/>
+
+<br/><br/>
 
 Run PowerShell Script to Generate Users<br/>
 <img src="screenshots/powershell-users.png" width="80%"/>
