@@ -106,25 +106,43 @@ Create Domain Admin Account<br/>
 
 <br/><br/>
 
-Run PowerShell Script to Generate Users<br/>
-<img src="screenshots/powershell-users.png" width="80%"/>
-<br /><br />
-
 Create Windows 10 Client Virtual Machine<br/>
-<img src="screenshots/client-vm.png" width="80%"/>
-<br /><br />
+<img src="09-create-windows-10-client-vm-1.png" width="80%"/>
+<br/>
+<img src="09-create-windows-10-client-vm-2.png" width="80%"/>
+<br/>
+<img src="09-create-windows-10-client-vm-3.png" width="80%"/>
 
-Join Windows 10 Client to Domain<br/>
-<img src="screenshots/domain-join.png" width="80%"/>
-<br /><br />
+<br/><br/>
 
 Verify Network Connectivity<br/>
-<img src="screenshots/ping-test.png" width="80%"/>
+<img src="10-verify-network-connectivity-1.png" width="80%"/>
+<br/>
+<img src="10-verify-network-connectivity-2.png" width="80%"/>
+<br/>
+<img src="10-verify-network-connectivity-3.png" width="80%"/>
+
+<br/><br/>
+
+Join Windows 10 Client to Domain<br/>
+<img src="11-join-client-to-domain-1.png" width="80%"/>
+<br/>
+<img src="11-join-client-to-domain-2.png" width="80%"/>
+
 <br /><br />
 
 Verify Computer Appears in Active Directory<br/>
-<img src="screenshots/ad-computers.png" width="80%"/>
+<img src="12-verify-computer-in-ad.png" width="80%"/>
 <br /><br />
+
+Run PowerShell Script to Generate Users<br/>
+<img src="13-run-powershell-user-script-1.png" width="80%"/>
+<br/>
+<img src="13-run-powershell-user-script-2.png" width="80%"/>
+<br/>
+<img src="13-run-powershell-user-script-3.png" width="80%"/>
+
+<br/><br/>
 
 </p>
 
