@@ -2,18 +2,11 @@
 
 <h2>Description</h2>
 
-This lab demonstrates how to deploy a Windows Active Directory environment using Oracle VirtualBox.
+This project showcases the design and deployment of a fully functional Active Directory home lab using Oracle VirtualBox, simulating a real-world enterprise network environment.
 
-The environment includes:
+In this lab, I implemented and configured key infrastructure services including Active Directory Domain Services (AD DS), DNS, DHCP, and NAT-based routing. I also managed domain users, group policies, and network configurations to replicate common system administration tasks.
 
-• Windows Server 2019 Domain Controller  
-• Active Directory Domain Services (AD DS)  
-• DNS and DHCP configuration  
-• NAT routing using RRAS  
-• Windows 10 client joined to the domain  
-• PowerShell automation to create 1000+ users  
-
-This simulates a small enterprise network infrastructure.
+This project highlights hands-on experience with Windows Server environments, network infrastructure, and troubleshooting—demonstrating practical skills applicable to entry-level IT and system administration roles.
 
 <br />
 
@@ -39,7 +32,7 @@ This simulates a small enterprise network infrastructure.
 <h2>Network Architecture</h2>
 
 <p align="center">
-<img src="screenshots/network-diagram.png" width="80%">
+<img src="00-network-diagram.png" width="80%">
 </p>
 
 <br />
